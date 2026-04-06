@@ -1,0 +1,60 @@
+/* Reset CSS - Menghapus default browser styling */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Menghapus bullet points pada list */
+ul, ol {
+  list-style: none;
+}
+
+/* Menghapus underline pada link */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Mengatur font dasar */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Menghapus border default pada gambar */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Mengatur button agar konsisten */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Mengatur input */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Menghapus outline default tapi tetap aksesibel */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}

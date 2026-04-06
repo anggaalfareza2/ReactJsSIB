@@ -182,14 +182,3 @@
     border-right-color: var(--border);
   }
 }
-
-.book-image {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;      /* potong gambar biar rapi */
-  object-position: top;   /* fokus ke bagian atas (cover buku biasanya di atas) */
-}
-
-.card {
-  height: 100%;
-}

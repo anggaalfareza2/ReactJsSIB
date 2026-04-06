@@ -3,6 +3,7 @@ import Hero from "../components/shared/Hero";
 import Team from "../components/shared/Team";
 import Footer from "../components/shared/Footer";
 import ProdukList from "../components/shared/ProdukList";
+import BookList from "../components/shared/BookList";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <Hero />
 
       <ProdukList />
+
+      <BookList/>
 
       <Team />
 
